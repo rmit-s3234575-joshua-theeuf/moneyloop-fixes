@@ -1,25 +1,286 @@
-<p id="notice"><%= notice %></p>
+	<div id="wrapper">
 
-<h1>Indices</h1>
+		<header id="header">
+			<div class="container">
+				<div class="logo">
+					<a href="#"><img src="images/logo.png" width="186" height="37" alt="moneyloop"></a>
+				</div>
+				<a href="#" class="nav-opener"><span></span></a>
+				<nav id="nav">
+					<ul class="menu">
+						<li><a href="#clinics">For Clinics</a></li>
+						<li><a href="#about">about us</a></li>
+						<li><a href="#faq">FAQ</a></li>
+						<li><a href="#footer">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+		<div class="visual" style="background-image: url(images/banner-img.jpg);">
+			<div class="container">
+				<div class="caption">
+					<h1>Affordable healthcare. Made Easy.</h1>
+					<span class="sub-heading">Receive healthcare today and pay later in six interest<br> free installments.</span>
+				</div>
+			</div>
+		</div>
 
-  <tbody>
-    <% @indices.each do |index| %>
-      <tr>
-        <td><%= link_to 'Show', index %></td>
-        <td><%= link_to 'Edit', edit_index_path(index) %></td>
-        <td><%= link_to 'Destroy', index, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+		<main id="main">
 
-<br>
+			<div class="tabs-block" id="clinics">
+				<div class="container">
+					<ul class="tabset">
+						<li>
+							<a href="#tab1-0">For Clinics</a>
+						</li>
+						<li>
+							<a href="#tab2-0">For patients</a>
+						</li>
+					</ul>
 
-<%= link_to 'New Index', new_index_path %>
+					<div class="tab-content">
+						<div id="tab1-0">
+							<h2>How its works</h2>
+							<div class="four-cols">
+								<div class="col">
+									<div class="img-box">
+										<a href="#">
+											<img src="images/img01.jpg" width="148" height="148" alt="img description">
+										</a>
+									</div>
+									<div class="text-box">
+										<h3><a href="#">Step 1</a></h3>
+										<p>Patient Recieves health service.</p>
+									</div>
+								</div>
+								<div class="col">
+									<div class="img-box">
+										<a href="#">
+											<img src="images/img01.jpg" width="148" height="148" alt="img description">
+										</a>
+									</div>
+									<div class="text-box">
+										<h3><a href="#">Step 2</a></h3>
+										<p>Patient fills out a simple 1 page Moneyloop agreement at your reception.</p>
+									</div>
+								</div>
+								<div class="col">
+									<div class="img-box">
+										<a href="#">
+											<img src="images/img01.jpg" width="148" height="148" alt="img description">
+										</a>
+									</div>
+									<div class="text-box">
+										<h3><a href="#">Step 3</a></h3>
+										<p>you get paid!</p>
+									</div>
+								</div>
+								<div class="col">
+									<div class="img-box">
+										<a href="#">
+											<img src="images/img01.jpg" width="148" height="148" alt="img description">
+										</a>
+									</div>
+									<div class="text-box">
+										<h3><a href="#">Step 4</a></h3>
+										<p>We handle the rest of the interactions with the patient in a friendly and helpful manner</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div id="tab2-0">
+							<h2>How its works</h2>
+							<div class="four-cols">
+								<div class="col">
+									<div class="img-box">
+										<img src="images/img01.jpg" width="148" height="148" alt="img description">
+									</div>
+									<div class="text-box">
+										<h3>Step 1</h3>
+										<p>lerem ipsum lerem ipsum lerem ipsum</p>
+									</div>
+								</div>
+								<div class="col">
+									<div class="img-box">
+										<img src="images/img01.jpg" width="148" height="148" alt="img description">
+									</div>
+									<div class="text-box">
+										<h3>Step 2</h3>
+										<p>lerem ipsum lerem ipsum lerem ipsum</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-area">
+				<div class="container">
+					<div class="header">
+						<p>Are you a clinic or a patient looking to use Moneyloop? We'd love to hear<br> from you and get you or your clinic on board.</p>
+					</div>
+					<form action="#" class="form">
+						<div class="input-holder">
+							<input class="form-control" type="search" placeholder="Your email address">
+						</div>
+						<div class="input-holder">
+							<input class="form-control" type="text" placeholder="Your Name">
+						</div>
+						<div class="input-holder">
+							<input class="form-control" type="text" placeholder="Clinic Name">
+						</div>
+						<input class="btn" type="submit"  value="submit">
+					</form>
+				</div>
+			</div>
+
+			<div class="testimonial-section" id="about">
+				<div class="container">
+					<div class="header">
+						<h2>What people have to say about us</h2>
+					</div>
+					<div class="testimonials">
+						<div class="slide">
+							<blockquote>
+								<q>Moneyloop is a really good initiative. I urge any clinic to get onboard. Flexible healthcare payment shoud've been around far sooner,.</q>
+								<cite>Dr. Robyn Miller, Port Phillip Private Practice</cite>
+							</blockquote>
+						</div>
+						<div class="slide">
+							<blockquote>
+								<q>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point .</q>
+								<cite>Dr. Alex Robit, Port Phillip </cite>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="services">
+				<div class="container">
+					<div class="header">
+						<h2>Clinics already using our service</h2>
+					</div>
+					<div class="slick-slider">
+						<div class="slide">
+							<div class="img-box">
+								<img src="images/img01.jpg" width="148" height="148" alt="img description">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="img-box">
+								<img src="images/img01.jpg" width="148" height="148" alt="img description">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="img-box">
+								<img src="images/img01.jpg" width="148" height="148" alt="img description">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="img-box">
+								<img src="images/img01.jpg" width="148" height="148" alt="img description">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="img-box">
+								<img src="images/img01.jpg" width="148" height="148" alt="img description">
+							</div>
+						</div>
+						<div class="slide">
+							<div class="img-box">
+								<img src="images/img01.jpg" width="148" height="148" alt="img description">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="faq-section" id="faq">
+				<div class="container">
+					<div class="header">
+						<h2>Frequently Asked Questions</h2>
+					</div>
+					<ul class="accordion">
+						<li class="active">
+							<a class="opener" href="#">How much interest does Moneyloop charge?</a>
+							<div class="slide">
+								<p>Moneyloop does not charge any interest to the consumer. This is because we do not believe that you should pay more for the healthcare you need.</p>
+							</div>
+						</li>
+						<li>
+							<a class="opener" href="#">What if a patient defaults?</a>
+							<div class="slide">
+								<p>Moneyloop does not charge any interest to the consumer. This is because we do not believe that you should pay more for the healthcare you need.</p>
+							</div>
+						</li>
+						<li>
+							<a class="opener" href="#">What if i'm struggling with repayments?</a>
+							<div class="slide">
+								<p>Moneyloop does not charge any interest to the consumer. This is because we do not believe that you should pay more for the healthcare you need.</p>
+							</div>
+						</li>
+						<li>
+							<a class="opener" href="#">What health services does Moneyloop help fund?</a>
+							<div class="slide">
+								<p>Moneyloop does not charge any interest to the consumer. This is because we do not believe that you should pay more for the healthcare you need.</p>
+							</div>
+						</li>
+						<li>
+							<a class="opener" href="#">My doctor/clinic does not support Moneyloop?</a>
+							<div class="slide">
+								<p>Moneyloop does not charge any interest to the consumer. This is because we do not believe that you should pay more for the healthcare you need.</p>
+							</div>
+						</li>
+						<li>
+							<a class="opener" href="#">What are the benefits for the clinic?</a>
+							<div class="slide">
+								<p>Moneyloop does not charge any interest to the consumer. This is because we do not believe that you should pay more for the healthcare you need.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</main>
+
+		<footer id="footer">
+			<div class="container">
+				<ul class="socialnetworks">
+					<li><a href="#"><i class="icon-facebook"></i></a></li>
+					<li><a href="#"><i class="icon-linkedin"></i></a></li>
+					<li class="mail"><a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#109;&#111;&#110;&#101;&#121;&#108;&#111;&#111;&#112;&#046;&#099;&#111;&#109;&#046;&#097;&#117;"><i class="icon-envelope"></i><span>hello@moneyloop.com.au</span></a></li>
+				</ul>
+				<div class="col-holder">
+					<div class="column">
+						<ul class="footer-nav">
+							<li><a href="#">For Clinics</a></li>
+							<li><a href="#">about us</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<div class="text-box">
+							<strong class="title">Supported by:</strong>
+							<p>H2 Ventures and the Government of Australia Department of Innovation</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-footer">
+				<div class="container">
+					<span class="sub-title">Disclaimers.....</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</footer>
+	</div>
